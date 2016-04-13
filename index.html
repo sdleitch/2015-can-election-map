@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canada Election Map</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="leaflet.css" />
+	<link rel="stylesheet" href="styles.css"/>
+
+	<script src="leaflet.js"></script>
+	<script src="full-data.json"></script>
+	<!--[if lte IE 8]><link rel="stylesheet" href="leaflet/leaflet.ie.css" /><![endif]-->
+</head>
+<body>
+	<div id="map"></div>
+	<div id="district-info">
+		<p id='district-name'></p>
+		<ol id="results">
+
+		</ol>
+	</div>
+	<script src="election-leaflet.js"></script>
+</body>
+</html>
